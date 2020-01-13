@@ -1,0 +1,235 @@
+/* header*/
+.head{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.head ul li{
+	display: inline-block;
+}
+.head ul li button{
+	background: none;
+
+	color: #31353E;
+	border:none;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 5px 10px;
+    transform: .4s;
+    -webkit-transform:.4s;
+    -moz-transform:0.4s;
+    -o-transform:.4s;
+}
+.head ul li button:hover{
+	background: #DD4B2B;
+	color: white;
+	border-radius: 20px;
+}
+/* Main section*/
+
+.main{
+	background: url(../images/photo-1416453072034-c8dbfa2856b5.png) no-repeat;
+	background-size: cover;
+}
+.main-head h1{
+	color: #FFFFFF;
+	padding-top: 280px;
+	font-size: 40px;
+}
+.main-head p{
+	padding: 20px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.menu-img{
+	padding-top:20px;
+}
+.menu-img img{
+	height: 120px;
+	width: 120px;
+}
+.menu-img h2{
+	font-weight: 700;
+	color: white;
+	padding: 18px;
+}
+.menu-img p{
+	color: white;
+	font-size: 13px;
+	margin:0 auto;
+	width: 70%
+
+}
+.main button{
+	margin-top: 35px;
+	padding: 5px 10px;
+	border:none;
+	background: white;
+	border-radius: 20px;
+	margin-bottom: 70px;
+	transform: .4s;
+    -webkit-transform:.4s;
+    -moz-transform:0.4s;
+    -o-transform:.4s;
+}
+.main button:hover{
+	background: #DD4B2B;
+	color: white;
+	border-radius: 20px;	
+}
+.news{
+	background: #EDEFF1;
+}
+.news h1{
+	padding: 50px 0;
+}
+.news h3{
+	padding-top: 20px;
+}
+.news p{
+	font-size: 13px;
+}
+.news img{
+	width: 95%;
+	margin: 0 auto;
+	transform: .4s;
+    -webkit-transform:.4s;
+    -moz-transform:0.4s;
+    -o-transform:.4s;
+}
+.news img:hover{
+	transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+}
+.news button{
+	background: white;
+	padding: 5px 10px;
+	border:none;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	transform: .4s;
+    -webkit-transform:.4s;
+    -moz-transform:0.4s;
+    -o-transform:.4s;
+}
+.news button:hover{
+	background: #DD4B2B;
+	color: white;
+	border-radius: 20px;		
+}
+/* News litter section */
+.news-litter{
+	background: url(../images/psd-file-Panakeia_.png)no-repeat;
+	background-size: cover;
+}
+.news-input{
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.news-litter h3{
+	color:white;
+	padding-top: 40px;
+
+}
+.news-litter p{
+	color: white;
+	font-size: 13px;
+	margin: 0 auto;
+	width: 40%;
+}
+.news-litter input{
+	height: 34px;
+	width: 400px;
+	background-color: transparent;
+	border:1px solid white;
+	border-radius:20px 0 0 20px;
+	padding: 3px 20px; 
+}
+.news-litter input::placeholder{
+	color: white;
+	opacity: 1;
+}
+.news-litter input:-ms-input-placeholder{
+	color: white;
+}
+.news-litter input::-ms-input-placeholder{
+	color: white;
+}
+.news-litter button{
+	padding: 5px 55px;
+	border:.5px solid white;
+	margin-left: -50px;
+	border-radius: 20px;
+
+}
+.news-litter button:hover{
+	background: #4B4E73;
+	color: white;
+	border-radius: 20px;
+}
+/*product galary section*/
+.product-galary h3{
+	padding-top: 50px;
+}
+..product-galary p{
+	font-size: 13px;
+}
+.product-galary-1 button{
+	background: none;
+	color: #31353E;
+	border:none;
+	margin: 15px 0;
+	padding: 5px 20px;
+    transform: .4s;
+    -webkit-transform:.4s;
+    -moz-transform:0.4s;
+    -o-transform:.4s;
+}
+.product-galary-1 button:hover{
+	background: #DD4B2B;
+	border-radius: 20px;
+}
+.product-galary-2 button{
+	background: none;
+	color: #31353E;
+	border:none;
+	margin: 15px 0;
+	padding: 5px 20px;
+    transform: .4s;
+    -webkit-transform:.4s;
+    -moz-transform:0.4s;
+    -o-transform:.4s;
+}
+.product-galary-2 button:hover{
+	background: #4B4E73;
+	color: white;
+	border-radius: 20px;
+}
+/*footer*/
+.fooder-background{
+	background: #D75D0E;
+}
+.fooder ul{
+	
+	padding:50px 0;
+
+	
+}
+.fooder ul li{
+	list-style: none;
+	padding:5px 0;
+	color: white;	
+}
+.fooder-background-img{
+	background: url(../images/footer-baground.png) no-repeat;
+	background: cover;
+}
+.fooder p{
+	padding-top: 80px;
+	padding-bottom: 100px;
+	color: white;
+	font-size: 13px;
+	margin: 0 auto;
+	width: 40%;
+}
